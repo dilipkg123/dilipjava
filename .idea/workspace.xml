@@ -5,16 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="610e7cfa-9d1c-420e-92c6-9a687a70750d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/maven-ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCounterStopWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/employees/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/employees/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SwapNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WordCounterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WordCounterTestIgnoreStopCases.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/employees/EmployeeServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ReverseStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ReverseStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SwapNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SwapNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ReverseStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ReverseStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SwapNumbersTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,22 +52,86 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "/Users/dilipkg/Personal/github/java/dilipjava/src/test/java",
     "settings.editor.selected.configurable": "com.obiscr.chatgpt.settings.GPT3-3.5-Turbo"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="ReverseStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="employees" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EmployeeServiceTest.testTop3Employees_lessThan3Employees">
+    <configuration name="EmployeeServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dilipjava" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReverseStringTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="employees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="employees" />
+      <option name="MAIN_CLASS_NAME" value="employees.EmployeeServiceTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceTest.testTop3Employees_lessThan3Employees" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dilipjava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.employees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.employees" />
+      <option name="MAIN_CLASS_NAME" value="org.example.employees.EmployeeServiceTest" />
+      <option name="METHOD_NAME" value="testTop3Employees_lessThan3Employees" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceTest.testTop3Employees_normalCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dilipjava" />
+      <option name="PACKAGE_NAME" value="employees" />
+      <option name="MAIN_CLASS_NAME" value="employees.EmployeeServiceTest" />
+      <option name="METHOD_NAME" value="testTop3Employees_normalCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dilipjava" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WordCounterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCounterTestIgnoreStopCases.testOnlySpaces" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dilipjava" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.WordCounterTestIgnoreStopCases" />
+      <option name="METHOD_NAME" value="testOnlySpaces" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReverseStringTest" />
+        <item itemvalue="JUnit.EmployeeServiceTest.testTop3Employees_lessThan3Employees" />
+        <item itemvalue="JUnit.EmployeeServiceTest" />
+        <item itemvalue="JUnit.EmployeeServiceTest.testTop3Employees_normalCase" />
+        <item itemvalue="JUnit.WordCounterTestIgnoreStopCases.testOnlySpaces" />
+        <item itemvalue="JUnit.WordCounterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -79,5 +159,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dilipjava$EmployeeServiceTest_testTop3Employees_normalCase.ic" NAME="EmployeeServiceTest.testTop3Employees_normalCase Coverage Results" MODIFIED="1742569540480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
