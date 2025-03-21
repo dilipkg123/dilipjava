@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="610e7cfa-9d1c-420e-92c6-9a687a70750d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCounterStopWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/employees/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/employees/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SwapNumbersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WordCounterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WordCounterTestIgnoreStopCases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/employees/EmployeeServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/maven-cd.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/employees/Jobs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SwapNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SwapNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ReverseStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/ReverseStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SwapNumbersTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

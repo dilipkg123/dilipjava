@@ -1,4 +1,4 @@
-name: Maven CI/CD
+  name: Maven CI/CD
 
 on:
   push:
@@ -25,4 +25,11 @@ jobs:
 
       - name: Run Unit Tests
         run: mvn test
+
+      - name: Upload JAR Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: app-jar
+          path: target/*.jar
+
 
