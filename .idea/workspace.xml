@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="610e7cfa-9d1c-420e-92c6-9a687a70750d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven-cd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven-cd.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven-ci.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
